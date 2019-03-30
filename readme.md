@@ -24,3 +24,5 @@ npm run dev
 * SCSS
 * ES6 / ES7
 * Proposal Class Properties
+* Webpack
+* Babel
