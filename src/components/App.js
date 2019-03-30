@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import { hot } from "react-hot-loader";
-import "./../index.scss";
+import React, { Component } from 'react'
+import { hot } from 'react-hot-loader'
+import './../index.scss'
 
 class App extends Component {
-  state = { count: 0 };
+  state = { count: 0 }
   render() {
     return (
       <div>
@@ -14,8 +14,8 @@ class App extends Component {
           +
         </button>
       </div>
-    );
+    )
   }
 }
 
-export default hot(module)(App);
+export default hot(module)(App)
