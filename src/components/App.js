@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
 import { hot } from 'react-hot-loader'
-import './../index.scss'
+import '../index.scss'
 
 class App extends Component {
   state = { count: 0 }
+
+  add = () => {}
+
   render() {
     return (
       <div>
