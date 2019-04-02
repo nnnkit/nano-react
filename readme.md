@@ -2,7 +2,7 @@
 
 Step 1: Clone this repo
 ```
-git clone --depth=1 git@github.com:nnnkit/nano-react.git sample
+git clone --depth=1 https://github.com/nnnkit/nano-react.git sample
 cd sample
 ```
 
