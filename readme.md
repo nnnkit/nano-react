@@ -16,13 +16,18 @@ Step 3: Start
 ```
 npm run dev
 ```
+Step 4:
+
+For ESLint and Prettier to work together you need to install ESLint extension on your IDE.
 
 ### Includes
 
 * React 16.8
 * ReactDOM
-* SCSS
+* SCSS / SASS
 * ES6 / ES7
 * Proposal Class Properties
 * Webpack
 * Babel
+* React Hot Loader
+* ESLint + Prettier

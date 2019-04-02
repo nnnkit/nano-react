@@ -5,13 +5,13 @@ import '../index.scss'
 class App extends Component {
   state = { count: 0 }
 
-  add = () => {}
-
   render() {
+    const { count } = this.state
     return (
       <div>
-        <div>{this.state.count}</div>
+        <div>{count}</div>
         <button
+          type="button"
           onClick={() => this.setState(state => ({ count: state.count + 1 }))}
         >
           +
