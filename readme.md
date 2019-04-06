@@ -16,9 +16,17 @@ Step 3: Start
 ```
 npm run dev
 ```
-Step 4:
+
+Step 4: Lint + Code Format
+
+```
+npm run eslint
+```
+
+Step 5:
 
 For ESLint and Prettier to work together you need to install ESLint extension on your IDE.
+
 
 ## With VS Code
 
