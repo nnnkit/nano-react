@@ -12,6 +12,7 @@ class ErrorBoundary extends React.Component {
   }
 
   render() {
+    // eslint-disable-next-line react/prop-types
     const { children } = this.props
     const { errorInfo, error } = this.state
     if (errorInfo) {
@@ -31,6 +32,6 @@ class ErrorBoundary extends React.Component {
   }
 }
 ErrorBoundary.prototype = {
-  children: PropTypes.element,
+  children: PropTypes.element.isRequired,
 }
 export default ErrorBoundary
